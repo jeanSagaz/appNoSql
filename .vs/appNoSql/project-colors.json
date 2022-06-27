@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5d63f60b-475d-4147-9d42-a3fedac9d469": {
+      "ProjectGuid": "5d63f60b-475d-4147-9d42-a3fedac9d469",
+      "DisplayName": "appNoSql.ConsoleApp",
+      "ColorIndex": 0
+    },
+    "15010612-3374-45f4-b686-3f8f502e698e": {
+      "ProjectGuid": "15010612-3374-45f4-b686-3f8f502e698e",
+      "DisplayName": "appNoSql.Infra.Data.ElasticSearch",
+      "ColorIndex": 1
+    },
+    "dc016a48-eccd-4ccc-842d-ba75c81b8101": {
+      "ProjectGuid": "dc016a48-eccd-4ccc-842d-ba75c81b8101",
+      "DisplayName": "appNoSql.Infra.Data.Redis",
+      "ColorIndex": 2
+    },
+    "58b929aa-5769-4194-8985-7bb40972b70e": {
+      "ProjectGuid": "58b929aa-5769-4194-8985-7bb40972b70e",
+      "DisplayName": "appNoSql.Configuration",
+      "ColorIndex": 3
+    },
+    "63f4777f-57ff-4a3b-a6f0-0a4e9e9d3eff": {
+      "ProjectGuid": "63f4777f-57ff-4a3b-a6f0-0a4e9e9d3eff",
+      "DisplayName": "appNoSql.Domain",
+      "ColorIndex": 4
+    },
+    "94b6c57d-d511-416a-9071-07ae8ee6dd3e": {
+      "ProjectGuid": "94b6c57d-d511-416a-9071-07ae8ee6dd3e",
+      "DisplayName": "appNoSql.Domain.Core",
+      "ColorIndex": 5
+    },
+    "51f47fb2-15c8-420a-9336-40ccb0a93f92": {
+      "ProjectGuid": "51f47fb2-15c8-420a-9336-40ccb0a93f92",
+      "DisplayName": "appNoSql.Infra.Data.MongoDB",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 7
+}

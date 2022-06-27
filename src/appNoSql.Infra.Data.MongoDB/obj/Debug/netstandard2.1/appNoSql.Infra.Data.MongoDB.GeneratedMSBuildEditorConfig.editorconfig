@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = appNoSql.Infra.Data.MongoDb
+build_property.ProjectDir = E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\

@@ -1,0 +1,13 @@
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\bin\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.deps.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\bin\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\bin\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\bin\Debug\netstandard2.1\appNoSql.Domain.Core.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\bin\Debug\netstandard2.1\appNoSql.Domain.Core.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.csproj.AssemblyReference.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.GeneratedMSBuildEditorConfig.editorconfig
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.AssemblyInfoInputs.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.AssemblyInfo.cs
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.csproj.CoreCompileInputs.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.csproj.CopyComplete
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.MongoDB\obj\Debug\netstandard2.1\appNoSql.Infra.Data.MongoDB.pdb

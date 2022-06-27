@@ -1,0 +1,15 @@
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.deps.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Domain.Core.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Domain.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Domain.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\bin\Debug\netstandard2.1\appNoSql.Domain.Core.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.csproj.AssemblyReference.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.GeneratedMSBuildEditorConfig.editorconfig
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.AssemblyInfoInputs.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.AssemblyInfo.cs
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.csproj.CoreCompileInputs.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.csproj.CopyComplete
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.pdb

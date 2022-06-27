@@ -1,0 +1,9 @@
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\bin\Debug\netstandard2.1\appNoSql.Domain.Core.deps.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\bin\Debug\netstandard2.1\appNoSql.Domain.Core.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\bin\Debug\netstandard2.1\appNoSql.Domain.Core.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\obj\Debug\netstandard2.1\appNoSql.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\obj\Debug\netstandard2.1\appNoSql.Domain.Core.AssemblyInfoInputs.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\obj\Debug\netstandard2.1\appNoSql.Domain.Core.AssemblyInfo.cs
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\obj\Debug\netstandard2.1\appNoSql.Domain.Core.csproj.CoreCompileInputs.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\obj\Debug\netstandard2.1\appNoSql.Domain.Core.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain.Core\obj\Debug\netstandard2.1\appNoSql.Domain.Core.pdb
