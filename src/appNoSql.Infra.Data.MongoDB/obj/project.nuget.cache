@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XymD7s2kZIIBbWbOB1qPeL2DvGu3XeXslhCHcBzi5CrwJlBMzbXLloPN5D3l2lrJiR3VVwZXNcNtWzA+yHzCGw==",
+  "dgSpecHash": "jGSKZx47G14=",
   "success": true,
-  "projectFilePath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\appNoSql.Infra.Data.MongoDb.csproj",
+  "projectFilePath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\appNoSql.Infra.Data.MongoDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
@@ -21,5 +21,16 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MongoDB.Driver' 2.14.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-7j9m-j397-g4wx",
+      "libraryId": "MongoDB.Driver",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
 }

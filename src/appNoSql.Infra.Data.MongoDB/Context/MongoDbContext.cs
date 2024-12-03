@@ -7,7 +7,7 @@ namespace appNoSql.Infra.Data.MongoDB.Context
     {
         protected readonly IMongoDatabase _database;
 
-        protected MongoDbContext(MongoDbConfigurations configurations)
+        protected MongoDbContext(MongoDbConfiguration configurations)
         {
             var client = new MongoClient(configurations.ConnectionString);
             _database = client.GetDatabase(configurations.DataBase);

@@ -17,7 +17,7 @@
           "Microsoft.Extensions.DependencyInjection": "5.0.0",
           "Microsoft.Extensions.Options": "5.0.0",
           "appNoSql.Infra.Data.ElasticSearch": "1.0.0",
-          "appNoSql.Infra.Data.MongoDB": "1.0.0",
+          "appNoSql.Infra.Data.MongoDb": "1.0.0",
           "appNoSql.Infra.Data.Redis": "1.0.0"
         },
         "runtime": {
@@ -32,7 +32,7 @@
           }
         }
       },
-      "Elasticsearch.Net/7.12.1": {
+      "Elasticsearch.Net/7.17.5": {
         "dependencies": {
           "Microsoft.CSharp": "4.6.0",
           "System.Buffers": "4.5.1",
@@ -41,7 +41,7 @@
         "runtime": {
           "lib/netstandard2.1/Elasticsearch.Net.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.12.1.0"
+            "fileVersion": "7.17.5.0"
           }
         }
       },
@@ -312,14 +312,14 @@
           }
         }
       },
-      "NEST/7.12.1": {
+      "NEST/7.17.5": {
         "dependencies": {
-          "Elasticsearch.Net": "7.12.1"
+          "Elasticsearch.Net": "7.17.5"
         },
         "runtime": {
           "lib/netstandard2.0/Nest.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.12.1.0"
+            "fileVersion": "7.17.5.0"
           }
         }
       },
@@ -460,7 +460,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "NEST": "7.12.1",
+          "NEST": "7.17.5",
           "appNoSql.Domain": "1.0.0",
           "appNoSql.Domain.Core": "1.0.0"
         },
@@ -468,13 +468,16 @@
           "appNoSql.Infra.Data.ElasticSearch.dll": {}
         }
       },
-      "appNoSql.Infra.Data.MongoDB/1.0.0": {
+      "appNoSql.Infra.Data.MongoDb/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "MongoDB.Driver": "2.14.1",
           "appNoSql.Domain.Core": "1.0.0"
         },
         "runtime": {
-          "appNoSql.Infra.Data.MongoDB.dll": {}
+          "appNoSql.Infra.Data.MongoDb.dll": {}
         }
       },
       "appNoSql.Infra.Data.Redis/1.0.0": {
@@ -504,12 +507,12 @@
       "path": "dnsclient/1.4.0",
       "hashPath": "dnsclient.1.4.0.nupkg.sha512"
     },
-    "Elasticsearch.Net/7.12.1": {
+    "Elasticsearch.Net/7.17.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-13PfEmHd4TQ4qq/zSLnmEN8CThRfA0uTtGXbxuzNIgfOIeemogSqAubuy6qMDSEuAIfL6Daf4dFURAngfZm67w==",
-      "path": "elasticsearch.net/7.12.1",
-      "hashPath": "elasticsearch.net.7.12.1.nupkg.sha512"
+      "sha512": "sha512-orChsQi1Ceho/NyIylNOn6y4vuGcsbCfMZnCueNN0fzqYEGQmQdPfcVmsR5+3fwpXTgxCdjTUVmqOwvHpCSB+Q==",
+      "path": "elasticsearch.net/7.17.5",
+      "hashPath": "elasticsearch.net.7.17.5.nupkg.sha512"
     },
     "Microsoft.CSharp/4.6.0": {
       "type": "package",
@@ -658,12 +661,12 @@
       "path": "mongodb.libmongocrypt/1.3.0",
       "hashPath": "mongodb.libmongocrypt.1.3.0.nupkg.sha512"
     },
-    "NEST/7.12.1": {
+    "NEST/7.17.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DDIlMvMDZcb8h4YGKWdCrSjBgDvB/vsfiDnf0rai/s18qF+UbhFOjWo3n4ToCJvtRVmj+cTPzb9uh90MG6CCKQ==",
-      "path": "nest/7.12.1",
-      "hashPath": "nest.7.12.1.nupkg.sha512"
+      "sha512": "sha512-bo9UyuIoVRx4IUQiuC8ZrlZuvAXKIccernC7UUKukQCEmRq2eVIk+gubHlnMQljrP51q0mN4cjgy9vv5uZPkoA==",
+      "path": "nest/7.17.5",
+      "hashPath": "nest.7.17.5.nupkg.sha512"
     },
     "Pipelines.Sockets.Unofficial/2.0.17": {
       "type": "package",
@@ -785,7 +788,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "appNoSql.Infra.Data.MongoDB/1.0.0": {
+    "appNoSql.Infra.Data.MongoDb/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

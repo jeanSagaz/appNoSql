@@ -2,7 +2,7 @@
 
 namespace appNoSql.Infra.Data.Redis.Interfaces
 {
-    public interface IPersonRepository : IRepositoryRedis<Person>
+    public interface IPersonRepository : IRedisRepository<Person>
     {
     }
 }

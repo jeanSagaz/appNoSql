@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace appNoSql.Infra.Data.Redis.Interfaces
 {
-    public interface IRepositoryRedis<T> where T : Entity
+    public interface IRedisRepository<T> where T : Entity
     {
         Task Set(string id, T data, TimeSpan? absoluteExpireTime = null, TimeSpan? unusedExpireTime = null);
         Task<bool> Update(string id, T data, TimeSpan? absoluteExpireTime = null, TimeSpan? unusedExpireTime = null);

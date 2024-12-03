@@ -41,21 +41,15 @@ namespace appNoSql.ConsoleApp.Configurations
                 x.Here = here;
             });
 
-            services.AddMongoDBExtensions(configuration);
-
-            //services.AddStackExchangeRedisCache(options =>
-            //{
-            //    options.Configuration = configuration.GetConnectionString("Redis");
-            //    options.InstanceName = "RedisDemo_";
-            //});
+            services.AddMongoDbExtensions(configuration);
 
             services.AddRedisExtensions(configuration);
 
-            services.AddElasticsearchExtensions(configuration);            
+            services.AddElasticsearchExtensions(configuration);
 
-            services.AddScoped(typeof(IRepositoryElasticSearch<>), typeof(RepositoryElasticSearch<>));
-            services.AddScoped(typeof(IRepositoryRedis<>), typeof(RepositoryRedis<>));
-            services.AddScoped(typeof(IRepositoryMongoDb<>), typeof(RepositoryMongoDb<>));
+            services.AddScoped(typeof(IElasticSearchRepository<>), typeof(ElasticSearchRepository<>));
+            services.AddScoped(typeof(IRedisRepository<>), typeof(RedisRepository<>));
+            services.AddScoped(typeof(IMongoDbRepository<>), typeof(MongoDbRepository<>));
             services.AddScoped<IPersonRepository, PersonRepository>();
         }
     }

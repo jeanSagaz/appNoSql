@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appNoSql.Domain", "src\appN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appNoSql.Domain.Core", "src\appNoSql.Domain.Core\appNoSql.Domain.Core.csproj", "{94B6C57D-D511-416A-9071-07AE8EE6DD3E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appNoSql.Infra.Data.MongoDb", "src\appNoSql.Infra.Data.MongoDB\appNoSql.Infra.Data.MongoDb.csproj", "{51F47FB2-15C8-420A-9336-40CCB0A93F92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appNoSql.Infra.Data.MongoDb", "src\appNoSql.Infra.Data.MongoDb\appNoSql.Infra.Data.MongoDb.csproj", "{51F47FB2-15C8-420A-9336-40CCB0A93F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

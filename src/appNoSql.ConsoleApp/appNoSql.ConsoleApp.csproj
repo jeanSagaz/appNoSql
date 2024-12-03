@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\appNoSql.Infra.Data.Elasticsearch\appNoSql.Infra.Data.ElasticSearch.csproj" />
-    <ProjectReference Include="..\appNoSql.Infra.Data.MongoDB\appNoSql.Infra.Data.MongoDb.csproj" />
+    <ProjectReference Include="..\appNoSql.Infra.Data.MongoDb\appNoSql.Infra.Data.MongoDb.csproj" />
     <ProjectReference Include="..\appNoSql.Infra.Data.Redis\appNoSql.Infra.Data.Redis.csproj" />
   </ItemGroup>
 

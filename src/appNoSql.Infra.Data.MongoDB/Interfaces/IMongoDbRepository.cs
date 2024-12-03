@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace appNoSql.Infra.Data.MongoDB.Interfaces
 {
-    public interface IRepositoryMongoDb<TEntity> : IDisposable where TEntity : class
+    public interface IMongoDbRepository<TEntity> : IDisposable where TEntity : class
     {
         Task<IEnumerable<TEntity>> GetAll();
 

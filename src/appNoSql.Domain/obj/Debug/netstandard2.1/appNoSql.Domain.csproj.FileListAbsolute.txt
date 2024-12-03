@@ -8,6 +8,7 @@ E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\app
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.AssemblyInfoInputs.cache
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.AssemblyInfo.cs
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.csproj.CoreCompileInputs.cache
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.csproj.CopyComplete
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.Domain.sourcelink.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Domain\obj\Debug\netstandard2.1\appNoSql.78C34057.Up2Date

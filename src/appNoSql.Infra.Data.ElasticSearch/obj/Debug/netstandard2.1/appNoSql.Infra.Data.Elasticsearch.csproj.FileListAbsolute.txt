@@ -1,4 +1,4 @@
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Elasticsearch\bin\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.deps.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\bin\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.deps.json
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\bin\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\bin\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.pdb
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\bin\Debug\netstandard2.1\appNoSql.Domain.Core.dll
@@ -10,6 +10,7 @@ E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.AssemblyInfoInputs.cache
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.AssemblyInfo.cs
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.csproj.CoreCompileInputs.cache
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Elasticsearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.csproj.CopyComplete
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.Infra.Data.ElasticSearch.sourcelink.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.ElasticSearch\obj\Debug\netstandard2.1\appNoSql.7FFFE1F6.Up2Date

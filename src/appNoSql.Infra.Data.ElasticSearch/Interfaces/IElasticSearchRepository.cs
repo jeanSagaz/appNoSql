@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace appNoSql.Infra.Data.ElasticSearch.Interfaces
 {
-    public interface IRepositoryElasticSearch<T> where T : Entity
+    public interface IElasticSearchRepository<T> where T : Entity
     {
         Task<IEnumerable<T>> GetAll();
 

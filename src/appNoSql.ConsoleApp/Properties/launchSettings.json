@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "appNoSql.ConsoleApp": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

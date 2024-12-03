@@ -56,7 +56,6 @@ E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSq
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.ConsoleApp.runtimeconfig.json
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.ConsoleApp.runtimeconfig.dev.json
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.ConsoleApp.dll
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\ref\appNoSql.ConsoleApp.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.ConsoleApp.pdb
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\DnsClient.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\Elasticsearch.Net.dll
@@ -102,10 +101,10 @@ E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\runtime
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Domain.Core.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Domain.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.ElasticSearch.dll
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.MongoDB.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.MongoDb.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.Redis.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.ElasticSearch.pdb
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.MongoDB.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.MongoDb.pdb
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Infra.Data.Redis.pdb
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Domain.pdb
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\bin\Debug\net5.0\appNoSql.Domain.Core.pdb
@@ -114,8 +113,10 @@ E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSq
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.AssemblyInfoInputs.cache
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.AssemblyInfo.cs
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.csproj.CoreCompileInputs.cache
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.csproj.CopyComplete
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.dll
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\ref\appNoSql.ConsoleApp.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\refint\appNoSql.ConsoleApp.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.pdb
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.genruntimeconfig.cache
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\ref\appNoSql.ConsoleApp.dll
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.ConsoleApp.sourcelink.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.ConsoleApp\obj\Debug\net5.0\appNoSql.A9F13B75.Up2Date

@@ -1,6 +1,6 @@
 ﻿namespace appNoSql.Domain.Core.Configurations
 {
-    public class MongoDbConfigurations
+    public class MongoDbConfiguration
     {
         public string ConnectionString { get; set; }
 

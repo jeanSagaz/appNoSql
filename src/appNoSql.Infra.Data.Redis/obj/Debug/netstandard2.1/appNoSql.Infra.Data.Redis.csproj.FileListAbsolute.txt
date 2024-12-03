@@ -10,6 +10,7 @@ E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstand
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.AssemblyInfoInputs.cache
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.AssemblyInfo.cs
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.csproj.CoreCompileInputs.cache
-E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.csproj.CopyComplete
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.dll
 E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.pdb
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.Infra.Data.Redis.sourcelink.json
+E:\codigos\dotnet\core\appNoSql\src\appNoSql.Infra.Data.Redis\obj\Debug\netstandard2.1\appNoSql.DA81CADC.Up2Date

@@ -7,11 +7,11 @@ using appNoSql.Domain.Core.Models;
 
 namespace appNoSql.Infra.Data.Redis.Repository
 {
-    public class RepositoryRedis<T> : IRepositoryRedis<T> where T : Entity
+    public class RedisRepository<T> : IRedisRepository<T> where T : Entity
     {
         private readonly IDistributedCache _cache;
 
-        public RepositoryRedis(IDistributedCache cache)
+        public RedisRepository(IDistributedCache cache)
         {
             _cache = cache;
         }

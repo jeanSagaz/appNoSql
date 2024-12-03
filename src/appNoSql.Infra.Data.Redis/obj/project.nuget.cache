@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D8DQ3g+rqABvRGwO4Hv42JugklR/sc4jPA1dIew3sZM7MRICrcI785vOANO33SbpLnhPAzlS3rEz4zVRhVjdmw==",
+  "dgSpecHash": "xSh3Gzgvh00=",
   "success": true,
   "projectFilePath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.Redis\\appNoSql.Infra.Data.Redis.csproj",
   "expectedPackageFiles": [

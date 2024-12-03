@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,8 +36,8 @@
               "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.Elasticsearch\\appNoSql.Infra.Data.ElasticSearch.csproj": {
                 "projectPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.Elasticsearch\\appNoSql.Infra.Data.ElasticSearch.csproj"
               },
-              "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\appNoSql.Infra.Data.MongoDb.csproj": {
-                "projectPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\appNoSql.Infra.Data.MongoDb.csproj"
+              "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\appNoSql.Infra.Data.MongoDb.csproj": {
+                "projectPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\appNoSql.Infra.Data.MongoDb.csproj"
               },
               "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.Redis\\appNoSql.Infra.Data.Redis.csproj": {
                 "projectPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.Redis\\appNoSql.Infra.Data.Redis.csproj"
@@ -48,6 +49,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,7 +99,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -102,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -128,6 +135,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,6 +148,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -151,7 +164,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -160,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -186,6 +200,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -202,6 +217,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -213,7 +233,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -222,7 +243,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -248,6 +269,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -267,6 +289,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -283,7 +310,7 @@
             },
             "NEST": {
               "target": "Package",
-              "version": "[7.12.1, )"
+              "version": "[7.17.5, )"
             }
           },
           "imports": [
@@ -292,7 +319,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -301,18 +329,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\appNoSql.Infra.Data.MongoDb.csproj": {
+    "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\appNoSql.Infra.Data.MongoDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\appNoSql.Infra.Data.MongoDb.csproj",
+        "projectUniqueName": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\appNoSql.Infra.Data.MongoDb.csproj",
         "projectName": "appNoSql.Infra.Data.MongoDb",
-        "projectPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\appNoSql.Infra.Data.MongoDb.csproj",
+        "projectPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\appNoSql.Infra.Data.MongoDb.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDB\\obj\\",
+        "outputPath": "E:\\codigos\\dotnet\\core\\appNoSql\\src\\appNoSql.Infra.Data.MongoDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -327,6 +355,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -343,6 +372,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -372,7 +406,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -381,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -407,6 +442,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -423,6 +459,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -452,7 +493,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -461,7 +503,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

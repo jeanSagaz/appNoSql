@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace appNoSql.Infra.Data.ElasticSearch.Repository
 {
-    public class RepositoryElasticSearch<T> : IRepositoryElasticSearch<T> where T : Entity
+    public class ElasticSearchRepository<T> : IElasticSearchRepository<T> where T : Entity
     {
         private readonly IElasticClient _elasticClient;
 
-        public RepositoryElasticSearch(IElasticClient elasticClient)
+        public ElasticSearchRepository(IElasticClient elasticClient)
         {
             _elasticClient = elasticClient;
         }

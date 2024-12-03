@@ -9,11 +9,11 @@ using appNoSql.Infra.Data.MongoDB.Context;
 
 namespace appNoSql.Infra.Data.MongoDB.Repository
 {
-    public class RepositoryMongoDb<TEntity> : MongoDbContext, IRepositoryMongoDb<TEntity> where TEntity : class
+    public class MongoDbRepository<TEntity> : MongoDbContext, IMongoDbRepository<TEntity> where TEntity : class
     {
         private IMongoCollection<TEntity> DbSet;
 
-        public RepositoryMongoDb(MongoDbConfigurations configurations) : base(configurations)
+        public MongoDbRepository(MongoDbConfiguration configurations) : base(configurations)
         {
             DbSet = GetCollection<TEntity>();
         }
