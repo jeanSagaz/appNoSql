@@ -1,3 +1,16 @@
+## Give a Star! :star:
+If you liked the project or if ApiGateway helped you, please give a star ;)
+
+## Technologies implemented:
+
+- ASP.NET Core 8.0 (with .NET Core 8.0)
+- .NET Core Native DI
+
+## Running the project
+In the project root folder run the command:  
+docker-compose up -d  
+Or run the docker commands below  
+
 ## mongoDB
 docker run -d --name app-mongoDB -v mongo-data:/data/db -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongo-admin -e MONGO_INITDB_ROOT_PASSWORD=mongo-password mongo:latest
 

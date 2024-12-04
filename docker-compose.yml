@@ -1,57 +1,11 @@
-version: '3.3'
+version: '3.9'
 
 services:
-  redis:
-    container_name: redis
-    hostname: redis
-    image: redis:alpine
-    command: redis-server --requirepass Redis    
-    networks:
-      - app-network
-    ports:
-      - 6379:6379
-      - 5002:5002
-
-  mongoDb-express:
-    image: mongo-express
-    container_name: mongoDb-express
-    # restart: always
-    ports:
-      - 8081:8081
-    environment:
-      ME_CONFIG_BASICAUTH_USERNAME: root
-      ME_CONFIG_BASICAUTH_PASSWORD: mongo-express
-      ME_CONFIG_MONGODB_PORT: 27017
-      ME_CONFIG_MONGODB_ADMINUSERNAME: mongo-admin
-      ME_CONFIG_MONGODB_ADMINPASSWORD: mongo-password
-      ME_CONFIG_MONGODB_URL: mongodb://mongo-admin:mongo-password@mongoDb:27017/
-    depends_on:
-      - mongoDb
-    networks:
-      - app-network
-
-  mongoDb:
-    container_name: mongoDb
-    hostname: mongoDb
-    image: mongo    
-    # restart: always
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: mongo-admin
-      MONGO_INITDB_ROOT_PASSWORD: mongo-password
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo-data:/data/db
-    networks:
-      - app-network
-
   elasticsearch:
     container_name: elasticsearch
-    hostname: elasticsearch
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.13.0-amd64
-    environment:
-      - ELASTIC_USERNAME=elastic
-      - ELASTIC_PASSWORD=elastic
+    # hostname: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.10.2
+    environment:      
       - discovery.type=single-node
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - http.host=0.0.0.0
@@ -62,6 +16,12 @@ services:
       - discovery.zen.minimum_master_nodes=1
       - http.cors.enabled=true
       - http.cors.allow-origin="*"
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=elastic
+    # ulimits:
+    #   memlock:
+    #     soft: -1
+    #     hard: -1
     volumes:
       - elasticsearch_data:/usr/share/elasticsearch/data
     ports:
@@ -77,16 +37,17 @@ services:
       timeout: 20s
       retries: 5
     networks:
-      - app-network
+      - elastic
 
   kibana:
     container_name: kibana
-    hostname: kibana
-    image: docker.elastic.co/kibana/kibana:7.13.0-amd64
-    environment:
-      - server.name=kibana
-      - server.host="0"
-      - elasticsearch.url=http://elasticsearch:9200
+    # hostname: kibana
+    image: docker.elastic.co/kibana/kibana:8.10.2
+    environment:      
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+      ELASTICSEARCH_HOSTS: '["http://elasticsearch:9200"]'
+      ELASTICSEARCH_USERNAME: elastic
+      ELASTICSEARCH_PASSWORD: elastic
     ports:
       - "5601:5601"
     healthcheck:
@@ -102,49 +63,12 @@ services:
       elasticsearch:
         condition: service_healthy
     networks:
-      - app-network
-
-  elastichq:
-    container_name: elastichq
-    hostname: elastichq
-    image: enterpriseapplicationlog_elastichq
-    build:
-      context: ./elastichq
-    depends_on:
-      - elasticsearch
-    ports:
-      - "5000:5000"
-    healthcheck:
-      test:
-        [
-          "CMD-SHELL",
-          "curl -I -s -L http://localhost:5000 || exit 1"
-        ]
-      interval: 30s
-      timeout: 20s
-      retries: 5
-    restart: on-failure
-    networks:
-      - app-network
-
-  # console:
-  #   image: ${DOCKER_REGISTRY-}-console
-  #   container_name: console
-  #   build:
-  #     context: ./src/appNoSql.ConsoleApp/Dockerfile
-  #   restart: always  
-  #   environment:
-  #     ASPNETCORE_ENVIRONMENT: Development
-  #   depends_on:
-  #     - mongoDb
-  #     - redis
-  #   networks:
-  #     - app-network
+      - elastic
 
 volumes:
     mongo-data:
     elasticsearch_data:
 
 networks:
-  app-network:
+  elastic:
     driver: bridge

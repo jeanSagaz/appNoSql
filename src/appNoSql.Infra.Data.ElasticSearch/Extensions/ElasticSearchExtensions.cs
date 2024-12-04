@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nest;
-using System;
 
 namespace appNoSql.Infra.Data.ElasticSearch.Extensions
 {
@@ -22,6 +21,7 @@ namespace appNoSql.Infra.Data.ElasticSearch.Extensions
             if (!string.IsNullOrEmpty(basicAuthUser) && !string.IsNullOrEmpty(basicAuthPassword))
                 settings = settings.BasicAuthentication(basicAuthUser, basicAuthPassword);
 
+            settings.EnableApiVersioningHeader();
             var client = new ElasticClient(settings);
             services.AddSingleton<IElasticClient>(client);
         }

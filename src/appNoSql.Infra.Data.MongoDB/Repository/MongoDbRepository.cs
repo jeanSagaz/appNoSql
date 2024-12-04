@@ -1,10 +1,7 @@
 ﻿using appNoSql.Domain.Core.Configurations;
 using appNoSql.Infra.Data.MongoDB.Interfaces;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 using appNoSql.Infra.Data.MongoDB.Context;
 
 namespace appNoSql.Infra.Data.MongoDB.Repository

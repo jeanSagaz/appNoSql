@@ -1,10 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using System;
 using appNoSql.ConsoleApp.Configurations;
 using appNoSql.Infra.Data.Redis.Interfaces;
 using appNoSql.Domain.Models;
 using appNoSql.Infra.Data.ElasticSearch.Interfaces;
-using System.Threading.Tasks;
 using appNoSql.Infra.Data.MongoDB.Interfaces;
 
 namespace appNoSql.ConsoleApp
@@ -20,9 +18,9 @@ namespace appNoSql.ConsoleApp
         {
             InitConfiguration();
 
-            //MongoDB().Wait();
             //Redis().Wait();
             ElasticSearch().Wait();
+            //MongoDB().Wait();
             Console.ReadKey();
         }
 
@@ -71,22 +69,25 @@ namespace appNoSql.ConsoleApp
             {
                 Id = new Guid("b8447a8c-06ca-4f20-88d7-9df27fcb5c5b"),
                 Name = "Jean",
-                Date = DateTime.Now
+                Date = DateTime.Now,
+                ExpireAt = DateTime.UtcNow.AddSeconds(10)
             };
-            await _repositoryElasticSearch.Add(person01);
 
+            var result = await _repositoryElasticSearch.GetById("b8447a8c-06ca-4f20-88d7-9df27fcb5c5b");
+            if (result is not null)
+            {
+                Console.WriteLine($"Busca: {result.Id}, {result.Name}");
+            }
+            else
+            {
+                await _repositoryElasticSearch.Add(person01);
+            }
 
             var people = await _repositoryElasticSearch.GetAll();
             foreach (var p in people)
             {
                 Console.WriteLine($"Lendo do elasticsearch {p.Id}, {p.Name}");
-            }
-
-            var person = await _repositoryElasticSearch.GetById("b8447a8c-06ca-4f20-88d7-9df27fcb5c5b");
-            if (person != null)
-            {
-                Console.WriteLine($"Busca: {person.Id}, {person.Name}");
-            }
+            }            
 
             var person02 = new Person()
             {
@@ -113,7 +114,7 @@ namespace appNoSql.ConsoleApp
             var person = new Person()
             {
                 Id = new Guid("f4af86bc-f3d0-42ba-ac5c-059dba578079"),
-                Name = "Jan Ferreira",
+                Name = "Jan",
                 Date = DateTime.Now
             };            
 
@@ -145,10 +146,10 @@ namespace appNoSql.ConsoleApp
             serviceProvider.ConfigureServices();
             var services = serviceProvider.BuildServiceProvider();
 
-            _repositoryElasticSearch = services.GetService<IElasticSearchRepository<Person>>();
-            _genericRepositoryRedis = services.GetService<IRedisRepository<Person>>();
-            _specializedRepositoryRedis = services.GetService<IPersonRepository>();
-            _genericRepositoryMongoDB = services.GetService<IMongoDbRepository<Person>>();
+            _repositoryElasticSearch = services.GetService<IElasticSearchRepository<Person>>() ?? throw new ArgumentException("Ocorreu um erro ao iniciar 'IElasticSearchRepository'");
+            _genericRepositoryRedis = services.GetService<IRedisRepository<Person>>() ?? throw new ArgumentException("Ocorreu um erro ao iniciar 'IRedisRepository'");
+            _specializedRepositoryRedis = services.GetService<IPersonRepository>() ?? throw new ArgumentException("Ocorreu um erro ao iniciar 'IPersonRepository'");
+            _genericRepositoryMongoDB = services.GetService<IMongoDbRepository<Person>>() ?? throw new ArgumentException("Ocorreu um erro ao iniciar 'IMongoDbRepository'");
         }
     }
 }

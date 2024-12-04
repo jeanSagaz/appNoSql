@@ -1,10 +1,6 @@
 ﻿using appNoSql.Domain.Core.Models;
 using appNoSql.Infra.Data.ElasticSearch.Interfaces;
 using Nest;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace appNoSql.Infra.Data.ElasticSearch.Repository
 {
