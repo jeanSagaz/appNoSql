@@ -4,7 +4,7 @@ services:
   redis:
     container_name: redis
     # restart: always
-    hostname: redis
+    # hostname: redis
     image: redis:alpine
     command: redis-server --requirepass Redis    
     networks:

@@ -8,7 +8,7 @@ If you liked the project or if ApiGateway helped you, please give a star ;)
 
 ## Running the project
 In the project root folder run the command:  
-docker-compose up -d  
+docker-compose -f .\docker-compose-Development.yml up -d  
 Or run the docker commands below  
 
 ## mongoDB

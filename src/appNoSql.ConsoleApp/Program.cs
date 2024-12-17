@@ -19,8 +19,8 @@ namespace appNoSql.ConsoleApp
             InitConfiguration();
 
             //Redis().Wait();
-            ElasticSearch().Wait();
-            //MongoDB().Wait();
+            //ElasticSearch().Wait();
+            MongoDB().Wait();
             Console.ReadKey();
         }
 
@@ -116,28 +116,29 @@ namespace appNoSql.ConsoleApp
                 Id = new Guid("f4af86bc-f3d0-42ba-ac5c-059dba578079"),
                 Name = "Jan",
                 Date = DateTime.Now
-            };            
+            };
 
-            var result = await _genericRepositoryMongoDB.GetById(person.Id);
+            var result = await _genericRepositoryMongoDB.GetByIdAsync(person.Id);
             if (result is not null)
             { 
                 Console.WriteLine($"01 - Lendo do mongo {result.Id}, {result.Name}");
                 person.Name = "Joan";
-                await _genericRepositoryMongoDB.Update(person.Id, person);
+                // await _genericRepositoryMongoDB.UpdateAsync(person.Id, person);
+                await _genericRepositoryMongoDB.UpdateAsync(person);
             }
             else
             {
-                await _genericRepositoryMongoDB.Add(person);
+                await _genericRepositoryMongoDB.AddAsync(person);
             }
 
-            var all = await _genericRepositoryMongoDB.GetAll();
+            var all = await _genericRepositoryMongoDB.GetAllAsync();
             foreach(var p in all)
             {
                 Console.WriteLine($"01) Lendo do mongo {p.Id}, {p.Name}");
             }
 
             //await _genericRepositoryMongoDB.Remove(person.Id);
-            await _genericRepositoryMongoDB.Remove(x => x.Id == person.Id);
+            await _genericRepositoryMongoDB.RemoveAsync(x => x.Id == person.Id);
         }
 
         private static void InitConfiguration()

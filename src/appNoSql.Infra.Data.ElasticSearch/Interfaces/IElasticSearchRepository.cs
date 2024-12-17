@@ -9,7 +9,7 @@ namespace appNoSql.Infra.Data.ElasticSearch.Interfaces
     {
         Task<IEnumerable<T>> GetAll();
 
-        Task<T> GetById(string id);
+        Task<T?> GetById(string id);
 
         Task<IndexResponse> Add(T obj);
 

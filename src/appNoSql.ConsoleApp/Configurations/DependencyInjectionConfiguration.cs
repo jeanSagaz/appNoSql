@@ -47,6 +47,8 @@ namespace appNoSql.ConsoleApp.Configurations
 
             services.AddElasticsearchExtensions(configuration);
 
+            services.AddSingleton<IConfiguration>(configuration);
+
             services.AddScoped(typeof(IElasticSearchRepository<>), typeof(ElasticSearchRepository<>));
             services.AddScoped(typeof(IRedisRepository<>), typeof(RedisRepository<>));
             services.AddScoped(typeof(IMongoDbRepository<>), typeof(MongoDbRepository<>));
